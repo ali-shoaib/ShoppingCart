@@ -1,5 +1,5 @@
-import React, { useState, useContext } from 'react';
-import {Link, useParams} from 'react-router-dom';
+import React, {useContext } from 'react';
+import {Link} from 'react-router-dom';
 import './card.css';
 import '../App.css';
 import { GlobalContext } from './contextApi';

@@ -4,7 +4,7 @@ import '../App.css';
 import './card.css';
 
 function Cart(){
-    const [cart, colors, sizes] = useContext(GlobalContext);
+    const [cart] = useContext(GlobalContext);
     return(
         <div>
             <h2 className="itemsincart">Items In Cart</h2>

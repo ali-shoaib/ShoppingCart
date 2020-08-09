@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link,Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Header from './shoeStore/header';
 import Home from './shoeStore/home';
 import ProductIndex from './shoeStore/productIndex';
