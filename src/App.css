@@ -1,0 +1,94 @@
+
+
+
+header{
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+header nav {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+}
+
+nav ul li a:hover {
+  color: rgb(21, 134, 168);
+}
+
+header > h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px rgb(8, 95, 177);
+}
+
+.home{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.products{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.pagenotfound{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: tomato;
+  text-transform: uppercase;
+  margin: 25% 25% 25% 25%;
+}
+
+.productdetails{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.itemsincart{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart{
+  background-color: white;
+  border-color: rgb(21, 133, 224);
+  height: 30px;
+  width: auto;
+  border-radius: 7px;
+  color: rgb(21, 133, 224);
+  font-size: 20px;
+}
+.cart:hover{
+  background-color: rgb(21, 133, 224);
+  color: white;
+  border: none;
+}
+
+.cartlength{
+  background-color: rgb(21, 133, 224);
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  border-radius: 7px;
+  text-align: center;
+}
