@@ -6,7 +6,7 @@ import './card.css';
 import '../App.css';
 
 const ProductDetails = () => {
-        const [productList, addToCart, colors, sizes, cart, clearCart] = useContext(GlobalContext);
+        const [productList, addToCart, colors, sizes, cart] = useContext(GlobalContext);
 
         const {id} = useParams();
         const products = productList[id];
@@ -35,7 +35,7 @@ const ProductDetails = () => {
                 </div>
                 <img src={products.img} alt={products.name}/><br/>
                 <button onClick={() => addToCart(products.id)}>Add to cart</button><br/>
-            <button onClick={clearCart}>Clear cart</button>
+            <button>Clear cart</button>
             <Link to='/products'>
             <button>Back to Products</button><br/>
             </Link>
